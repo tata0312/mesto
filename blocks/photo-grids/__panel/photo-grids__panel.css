@@ -1,0 +1,15 @@
+.photo-grids__panel {
+	display: flex;
+	background-color: white;
+	color: black;
+	padding: 0 20px 0 21px;
+	justify-content: space-between;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 29px;
+	height: 79px;
+	align-items: center;
+	border-radius: 0 0 10px 10px;
+	max-width: 282px;
+}

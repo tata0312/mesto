@@ -1,0 +1,15 @@
+.photo-grids__like {
+	background-image: url(../../../img/like.svg);
+	width: 22px;
+	height: 19px;
+	border: none;
+	background-color: transparent;
+	padding: 0;
+	cursor: pointer;
+	transition: opacity 0.3s linear;
+}
+
+.photo-grids__like:hover {
+	opacity: 0.5;
+	transition: 0.5s;
+}

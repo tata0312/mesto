@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+        <link rel="stylesheet" href="css/index.css" />
+        <title>Mesto</title>
+    </head>
+    <body class="body">
+        <div class="page">
+            <div class="page__wrapper">
+                <header class="header">
+                    <img class="header__logo" src="./img/logo.png" alt="Логотип" />
+                </header>
+                <main>
+                    <section class="profile-wrapper">
+                        <div class="profile">
+                            <div class="profile__info">
+                                <img class="profile__avatar" src="./img/avatar.jpg" alt="Аватар" />
+                                <div class="profile__text">
+                                    <h1 class="profile__name">Жак-Ив Кусто</h1>
+                                    <p class="profile__post">Исследователь океана</p>
+                                </div>
+                                <button type="button" class="profile__edit-button"></button>
+                            </div>
+                            <button type="button" class="profile__add-button"></button>
+                        </div>
+                    </section>
+                    <section class="photo-grids">
+                        <div class="photo-grids__card">
+                            <img class="photo-grids__photo" src="./img/kirill-pershin-1088404-unsplash.jpg" alt="Карачаевск" />
+                            <div class="photo-grids__panel">
+                                <h4 class="photo-grids__text">Карачаевск</h4>
+                                <button type="button" class="photo-grids__like"></button>
+                            </div>
+                        </div>
+                        <div class="photo-grids__card">
+                            <img class="photo-grids__photo" src="./img/kirill-pershin-1404681-unsplash.png" alt="Гора Эльбрус" />
+                            <div class="photo-grids__panel">
+                                <h4 class="photo-grids__text">Гора Эльбрус</h4>
+                                <button type="button" class="photo-grids__like"></button>
+                            </div>
+                        </div>
+                        <div class="photo-grids__card">
+                            <img class="photo-grids__photo" src="./img/kirill-pershin-1556355-unsplash.png" alt="Домбай" />
+                            <div class="photo-grids__panel">
+                                <h4 class="photo-grids__text">Домбай</h4>
+                                <button type="button" class="photo-grids__like"></button>
+                            </div>
+                        </div>
+                        <div class="photo-grids__card">
+                            <img class="photo-grids__photo" src="./img/kirill-pershin-1404681-unsplash.png" alt="Гора Эльбрус" />
+                            <div class="photo-grids__panel">
+                                <h4 class="photo-grids__text">Гора Эльбрус</h4>
+                                <button type="button" class="photo-grids__like"></button>
+                            </div>
+                        </div>
+                        <div class="photo-grids__card">
+                            <img class="photo-grids__photo" src="./img/kirill-pershin-1556355-unsplash.png" alt="Домбай" />
+                            <div class="photo-grids__panel">
+                                <h4 class="photo-grids__text">Домбай</h4>
+                                <button type="button" class="photo-grids__like"></button>
+                            </div>
+                        </div>
+                        <div class="photo-grids__card">
+                            <img class="photo-grids__photo" src="./img/kirill-pershin-1088404-unsplash.jpg" alt="Карачаево-Черкесия" />
+                            <div class="photo-grids__panel">
+                                <h4 class="photo-grids__text">Карачаево-Черкесия</h4>
+                                <button type="button" class="photo-grids__like"></button>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+                <footer class="footer">
+                    <p class="footer__text">© 2023 Mesto Russia</p>
+                </footer>
+                <div class="popup">
+                    <div class="popup__profile-container">
+                        <button class="popup__close" type="button"></button>
+                        <h3 class="popup__title">Редактировать профиль</h3>
+                        <form class="popup__form">
+                            <input type="text" class="popup__input popup__input_name" />
+                            <input type="text" class="popup__input popup__input_post" />
+                            <button type="submit" value="Сохранить" class="popup__form-submit">Сохранить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./scripts/index.js"></script>
+    </body>
+</html>
